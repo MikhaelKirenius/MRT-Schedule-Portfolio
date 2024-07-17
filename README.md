@@ -1,36 +1,20 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Project Name: MRT Schedule Web App
 
-## Getting Started
+Description:
 
-First, run the development server:
+This web application provides a user-friendly interface to view and navigate the MRT (Mass Rapid Transit) schedule. It's built using Next.js, a popular React framework known for its server-side rendering (SSR) and static site generation (SSG) capabilities, and leverages data retrieved from an external API https://github.com/albertus125/mrt-API.
 
-```bash
+Key Features:
+
+Clear and Concise Display: The app presents the MRT schedule in a well-organized and easy-to-understand format, making it simple for users to find the information they need.
+User-Friendly Interface: The interface is designed with intuitive navigation, ensuring a smooth and seamless user experience.
+Next.js Framework: Next.js provides a robust foundation for building a performant and scalable web application.
+External API Integration: The app effectively retrieves and displays data from the MRT schedule API.
+Getting Started:
+
+Prerequisites:
+Node.js and npm (or yarn) installed on your system. You can download them from https://nodejs.org/en
+Cloning the Repository
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+This will start the development server, typically accessible at http://localhost:3000 in your web browser.
